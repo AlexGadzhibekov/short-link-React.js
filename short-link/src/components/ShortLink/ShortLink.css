@@ -1,0 +1,43 @@
+.box {
+    max-width: 100%;
+    max-height: max-content;
+    border-radius: 24px;
+    overflow-y: hidden;
+    background-color: white;
+  }
+  .content {
+    margin: 0 auto;
+    display: flex;
+    max-width: 60%;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .active {
+    max-height: 500px;
+    opacity: 1;
+  }
+  .hide {
+    max-height: 0;
+  }
+  .text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .copy {
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    padding: 15px 10px;
+    border-radius: 24px;
+    color: white;
+    opacity: 0;
+    transform: translateX(-50%);
+    background-color: gray;
+    transition: opacity 0.5s ease;
+  }
+  .copy.showCopy {
+    opacity: 1;
+  }
+  
+ 

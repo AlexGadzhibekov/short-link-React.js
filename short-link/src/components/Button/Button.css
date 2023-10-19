@@ -1,0 +1,9 @@
+button {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(239, 239, 90);
+    border: none;
+  }
+  button:disabled {
+    background-color: lightgray;
+  }
